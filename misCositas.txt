@@ -1,0 +1,13 @@
+onMounted(() => { 
+  let div_zonaJuego=document.getElementById("zonaJuego");
+tablero.forEach(cadaFila=>{
+  cadaFila.forEach(()=>{
+  let casilla=div_zonaJuego.appendChild(document.createElement("input"));
+    casilla.setAttribute("maxLength", "1");
+    casilla.setAttribute("type", "button");
+
+  });
+
+});  
+  
+}) 
