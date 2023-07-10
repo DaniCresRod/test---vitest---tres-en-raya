@@ -1,6 +1,6 @@
 <script setup>
 
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 
 let casilla_1_1
 let casilla_1_2
@@ -22,7 +22,6 @@ let tablero = [
   [casilla_3_1, casilla_3_2, casilla_3_3]
 ];
 
-
 /*
 function AddClickListener(){
   let arrayInputs= document.querySelectorAll("#zonaJuego input");
@@ -35,7 +34,6 @@ function AddClickListener(){
   })
 
 }
-
 
 onMounted(() => {
   let esto=AddClickListener();
